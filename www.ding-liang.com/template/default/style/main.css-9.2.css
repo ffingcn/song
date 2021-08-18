@@ -1,0 +1,226 @@
+@CHARSET "UTF-8";
+
+/*头部样式*/
+.head{background: url("../images/head.jpg"/*tpa=http://www.ding-liang.com/template/default/images/head.jpg*/) repeat-x center top;padding-bottom:12px;}
+#header{width:1150px;margin:0 auto;}
+.wel{color:#999;line-height:37px;}
+.k1{color:#999;line-height:37px;}
+.k1 a{color:#999}
+.k1 a:hover{color:#ff6621}
+
+.top{}
+.logo{float:left;margin-top:18px;}
+
+.topLink{width:628px;float:right;text-align:right;position: relative;z-index: 9999;}
+.translate{width:100px;position: absolute;left: 0;top:10px;z-index: 9999;display: none}
+.tran-in{left:120px;}
+.translate li{border: 1px dashed #cccccc;line-height: 26px;text-align: left;background: #fff;}
+.translate li a{display: block;padding-left: 10px;background: url("../images/dot4.png"/*tpa=http://www.ding-liang.com/template/default/images/dot4.png*/) no-repeat 88% 11px;}
+.translate li a:hover{text-decoration: none;color:#275cea;cursor: pointer;}
+.translate-en{display: none;padding: 6px;padding-top:0px;}
+.translate li .translate-en a{padding-left: 0px;text-align: center;background: #fff;border-bottom: 1px solid #cccccc;}
+.translate li .translate-en a:hover{font-weight: bold;}
+
+.topLink .f_count{color:#ff0000;font-size:13px;font-weight:bold;}
+.topLink .k1{line-height:32px;padding-top:5px;}
+.topLink .k2{padding-left:22px;background: url("../images/phone.jpg"/*tpa=http://www.ding-liang.com/template/default/images/phone.jpg*/) no-repeat left center;float:right;margin-top:13px;}
+
+/*修改*/
+.lan ul{float:right;margin-left:30px;}
+.lan li {
+    line-height: 32px;
+    width: 80px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 20px;
+    list-style: none;
+    background: #444;}
+.lan li a {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+.blue {
+    background: #0057c1 !important;
+}
+
+#menu{margin-top:5px;}
+
+/*热门搜索*/
+.ss{background:#f0f0f0;line-height:53px;}
+.search{width:1150px;margin:0 auto;}
+#formsearch{float:right;width:300px;line-height:31px;background: url("../images/ss.jpg"/*tpa=http://www.ding-liang.com/template/default/images/ss.jpg*/) no-repeat left center;margin-top:10px;}
+.hotSearch{float:left;font-weight:normal;color:#333;}
+
+
+/*主体样式*/
+#container{width:1150px;margin:0 auto;margin-top:10px;}
+.container{width:1150px;margin:0 auto;}
+.ctitle{color:#999;font:600 30px "宋体";text-align:center;text-transform:uppercase;}
+.ctitle span{display:block;color:#111;font-family:"微软雅黑";margin:3px 0 16px;}
+.ctitle a{display:block;font:400 12px/25px "微软雅黑";background: url("../images/more.png"/*tpa=http://www.ding-liang.com/template/default/images/more.png*/) no-repeat left center;}
+.ctitle i{display:block;font:400 18px/25px "微软雅黑";background: url("../images/ibg.png"/*tpa=http://www.ding-liang.com/template/default/images/ibg.png*/) no-repeat left center;}
+
+.service{margin-top:30px;}
+.service .content{margin-top:42px;}
+.service li{width:213px;float:left;border:1px solid #e0e0e0;margin-right:30px;border-top:3px solid #ff9972;padding:20px 25px;text-align:center;}
+.service li:nth-child(2){border-top:3px solid #85bb59;}
+.service li:nth-child(3){border-top:3px solid #63a5ff;}
+.service li:nth-child(4){margin-right:0;border-top:3px solid #ff764d;}
+.service li a{display:block;color:#111;font-size:22px;}
+.service li h3{font:400 14px/24px "微软雅黑";}
+.service li a.inquiry{width:108px;height:30px;border:1px solid #ff8659;border-radius:6px;line-height:30px;color:#ff8659;font-size:12px;margin:0 auto;margin-top:18px;}
+.service li a.img{margin:20px 0 18px;height:59px;}
+.service li:nth-child(2) a.inquiry{color:#85ba59;border-color:#85ba59;}
+.service li:nth-child(3) a.inquiry{color:#63a5ff;border-color:#63a5ff;}
+.service li:nth-child(4) a.inquiry{color:#ff764d;border-color:#ff764d;}
+.service li:hover a.inquiry{background:#ff8659;color:#fff;}
+.service li:nth-child(2):hover a.inquiry{background:#91c269;}
+.service li:nth-child(3):hover a.inquiry{background:#72aeff;}
+.service li:nth-child(4):hover a.inquiry{background:#ff835e;}
+.service li:hover{  box-shadow:-2px 0 7px #e0e0e0,2px 0 7px #e0e0e0,0 0 0 #e0e0e0, 0 2px 7px #e0e0e0;}
+
+
+.c2{background:url("../images/c2.jpg"/*tpa=http://www.ding-liang.com/template/default/images/c2.jpg*/) no-repeat 49% top;padding-top:28px;height:1120px;margin-top:68px;}
+
+
+.menu_cate{width:159px;float:left;border-right:1px solid #e6e6e6; background:linear-gradient(#fff,#d7d7d7);padding:20px 18px;margin-top:53px;}
+/*产品推荐*/
+.recommend_product{width:945px;float:right;margin-top:40px;}
+.recommend_product .content{padding-top:15px;padding-bottom:14px;}
+.roll_product li{padding-bottom:0px;}
+
+.ht1{position:relative;left:50%;margin-left:-960px;width:1920px;}
+
+.ys{margin-top:52px;margin-bottom:80px;}
+.yimg{width:582px;}
+.yword{width:505px;}
+.yword .ytitle{width:45px;}
+.yword .ycontent{width:435px;font:400 14px/26px "微软雅黑";}
+.yword .ycontent h3{border-bottom:1px dashed #dbdbdb;color:#333;font:600 20px/45px "微软雅黑";margin-bottom:8px;}
+.yword .ycontent h3 i{padding-left:5px;color:#b1b1b1;font-family:"宋体";text-transform:uppercase;}
+.yword1{margin-bottom:52px;}
+
+.zixun{display:block;float:left;width:136px;margin-top:27px;}
+.phone{padding-left:55px;background:url("../images/phone1.png"/*tpa=http://www.ding-liang.com/template/default/images/phone1.png*/) no-repeat 0% 100%;color:#5b6575;float:left;margin-left:26px;margin-top:16px;}
+
+.process{margin-top:50px;}
+.process .content{margin-top:32px;}
+.process li{width:109px;float:left;padding-right:39px;background:url("../images/sdot1.jpg"/*tpa=http://www.ding-liang.com/template/default/images/sdot1.jpg*/) no-repeat 126px center;}
+.process li:last-child{padding-right:0;background:none}
+.c3{padding-bottom:13px;}
+.box3{background:url("../images/c3a.png"/*tpa=http://www.ding-liang.com/template/default/images/c3a.png*/) no-repeat center;padding-bottom:13px;width:1920px;left:50%;margin-left:-960px;position:relative;
+}
+.about{margin-top:58px;}
+.about .content1{width:458px;float:left;margin-top:58px;}
+.about .content{width:564px;float:right;background:url("../images/about.jpg"/*tpa=http://www.ding-liang.com/template/default/images/about.jpg*/) no-repeat center top;padding:43px 50px 0 40px;font:400 14px/30px "微软雅黑";position:relative;height:275px;margin-top:75px;}
+.about .content h3{color:#111;font:400 22px "微软雅黑";margin-bottom:30px;}
+.about .content a{display:block;color:#fff;background:#ff6621;font:400 12px/26px "微软雅黑";width:84px;text-align:center;position:absolute;right:60px;bottom:25px;}
+.atitle{color:#fff;font-size:22px;line-height:42px;position:relative;font-weight:400;margin-top:50px;padding-top:20px;}
+.atitle span{padding-left:10px;font-size:14px;text-transform:uppercase;}
+.atitle a{position:absolute;right:0;top:23px;}
+
+.album{/*background: url(../images/c3.png) no-repeat 30% 103%;*/position:relative;width:1240px;left:50%;margin-left:-620px;}
+.album .product_list2{margin-top:24px;}
+.l_btn,.r_btn{position:absolute;top:37%;cursor:pointer;}
+.l_btn{left:0;}
+.r_btn{right:0;}
+
+
+.customer{position:relative;width:1240px;left:50%;margin-left:-620px;}
+.customer .product_list3{margin-top:45px;}
+.l_btn1,.r_btn1{position:absolute;top:41%;cursor:pointer;}
+.l_btn1{left:0;}
+.r_btn1{right:0;}
+
+
+/*首页新闻*/
+.news{margin-top:80px;}
+.news_company{width:350px;margin-right:48px;}
+.news1_title{border-bottom:1px solid #e5e5e5;font:400 22px/50px "微软雅黑";color:#111;position:relative;}
+.news1_title span{padding-left:12px;color:#999;font-size:14px;text-transform:uppercase;}
+.news1_title a{position:absolute;right:0;top:0;}
+.news_company .content{padding-top:20px;}
+.news_company .content img{width:350px;height:115px;display:block;}
+
+.cate_title{line-height:31px;padding-left:15px;font-weight:bold;font-family:"微软雅黑";
+background:url("../images/nav.png"/*tpa=http://www.ding-liang.com/template/default/images/nav.png*/) no-repeat 0% 100%;font-size:14px;color:#000;}
+
+.navigation{float:right;width:100px;}
+
+.index-title{line-height:31px;padding-left:15px;font-weight:bold;font-family:"微软雅黑";
+background:url("../images/nav.png"/*tpa=http://www.ding-liang.com/template/default/images/nav.png*/) no-repeat 0% 100%;font-size:14px;color:#000;}
+.index-table td{border:solid #add9c0; border-width:0px 1px 1px 0px; padding:10px 5px;}
+.index-table{border:solid #add9c0; border-width:1px 0px 0px 1px;margin-top:10px;}
+
+/*----- Common css ------*/
+.fl{float:left;}
+.fr{float:right;}
+.di{_display:inline;}
+.fwn{font-weight:normal;}
+.dib{*display:inline;_zoom:1;_display:inline;_font-size:0px;}
+
+
+
+/*首页左侧联系我们*/
+
+
+/*工程案例*/
+.case{width:460px;float:left;margin-left:12px;padding-bottom:5px;margin-top:10px;}
+.case_title{line-height:31px;padding-left:15px;font-weight:bold;font-family:"微软雅黑";
+background:url("../images/nav.png"/*tpa=http://www.ding-liang.com/template/default/images/nav.png*/) no-repeat 0% 100%;font-size:14px;color:#000;}
+.case .content{padding:5px;padding-bottom:12px;text-indent:20px;}
+
+.news2_company{margin-top:10px;}
+
+
+
+
+
+
+/*友情链接*/
+.f_link{width:1150px;margin:0 auto;line-height:80px;background:url("../images/link.png"/*tpa=http://www.ding-liang.com/template/default/images/link.png*/) no-repeat 10px center;height:80px;overflow:hidden;text-indent:165px;}
+.f_link a{padding:0 12px;}
+
+#gotop{position:fixed;display:none;height:100px;width:61px;background:url("../images/top.png"/*tpa=http://www.ding-liang.com/template/default/images/top.png*/) no-repeat;right:100px;bottom:130px;cursor:pointer;}
+
+/*页面底部*/
+.foot{padding-top:95px;background:url("../images/foot.jpg"/*tpa=http://www.ding-liang.com/template/default/images/foot.jpg*/) #293038 no-repeat center top;margin-top:55px;padding-bottom:10px;}
+#footer{width:1150px;margin:0 auto;padding-top:32px;}
+.nav_foot{width:350px;float:left;}
+.code1{width:118px;float:left;text-align:center;line-height:35px;margin-left: 164px;margin-top: 33px;}
+.contact{width:350px;float:right;color:#333;font:400 14px/28px "微软雅黑";margin-top:40px;}
+
+.copyright{color:#7d8288;font:400 12px/24px "微软雅黑";margin-top:25px;text-align:center;}
+.copyright a{color:#7d8288;}
+.copyright a:hover{color:#ff6621;}
+.nav1{margin-top:8px;}
+.nav1 a{padding-left:18px;color:#333;font:400 14px/32px "微软雅黑";background:url("../images/ndot1.jpg"/*tpa=http://www.ding-liang.com/template/default/images/ndot1.jpg*/) no-repeat 0% 50%;width:85px;display:block;float:left;}
+/*------------内页-------------------*/
+.left .box{margin-bottom:10px;}
+.left .box h3{line-height:38px;padding-left:15px;font-weight:bold;font-family:"微软雅黑";
+background:#ff6621;font-size:14px;color:#fff;}
+.left .box .content{padding:5px 0px;}
+
+.prodescription{border:1px solid #e5e5e5;background:#f9f9f9;line-height:24px;padding:10px;margin-bottom:15px;text-indent:20px;}
+
+.n_banner{width:1920px;margin:0 auto;position:relative;left:50%;margin-left:-960px;}
+.n_banner img{width:1920px;margin:0 auto}
+.left{width:225px;float:left;}
+.sort_menu{}
+.sort_menu h3{background-color:#ececec;line-height:28px;padding-left:15px;font-weight:bold;}
+.sort_product{margin-top:10px;}
+.sort_product h3{background-color:#ececec;line-height:28px;padding-left:15px;font-weight:bold;}
+
+.n_contact{margin-top:10px;}
+.n_contact h3{background-color:#ececec;line-height:28px;padding-left:15px;font-weight:bold;}
+.n_contact .content{padding:5px;line-height:24px;}
+
+.right{width:900px;float:right;padding-bottom:10px;}
+.sitemp{line-height:38px;height:38px;overflow:hidden;padding-right:10px;background:#ff6621;}
+.sitemp h2{width:340px;float:left;line-height:38px;text-align:center;text-align:left;text-indent:15px;color:#fff;font-size:14px;}
+.sitemp .site{width:380px;float:right;text-align:right;line-height:38px;color:#fff;}
+.right .content{padding:10px;padding-top:15px;overflow:hidden;line-height: 24px;}
+.sitemp .site a{color:#fff;}
+
